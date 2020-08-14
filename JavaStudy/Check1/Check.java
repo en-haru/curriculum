@@ -19,7 +19,7 @@ public class Check{
         }
         System.out.println();
         for (int i = 0; i < /*ここに記述*/data.length; i++) {
-            for (int j = data.length - i  - 1/*ここに記述*/; j > i; j--) {
+            for (int j = data.length -1/*ここに記述*/; j > i; j--) {
                 /*
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
